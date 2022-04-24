@@ -1,0 +1,23 @@
+{
+  "name": "ahj-homework-rxjs-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "author": "Nataliya2020",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "6.1.2",
+    "@koa/cors": "^3.3.0",
+    "faker": "^6.6.6",
+    "forever": "^4.0.3",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2"
+  }
+}
